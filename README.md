@@ -103,7 +103,6 @@ The dataset contains patients’ medical profile, lifestyle indicators, nutritio
 
 • XGBoostRegressor
 
-
 ### Pipeline Stages
 • SimpleImputer
 
