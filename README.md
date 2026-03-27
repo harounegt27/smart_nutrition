@@ -1,6 +1,6 @@
 # Diet Recommendation System — End-to-End Machine Learning Application
 
-Python • Angular • FastAPI • Docker • MLflow
+Python • React • FastAPI • Docker • MLflow
 
 University: Tek-Up — Guided ML Project (Python for Data Science 2)
 
@@ -140,10 +140,10 @@ cmd :
 
 Access Swagger Docs → http://localhost:8000/docs
 
-## Frontend (Angular)
-Built with Angular 17, using:
+## Frontend (React)
+Built with React, using:
 
-• Angular Material
+• Vite
 
 • Reactive Forms
 
