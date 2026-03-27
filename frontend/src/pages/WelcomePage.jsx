@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import smartLogo from '../assets/Smart Nutrition Logo.png';
 
 const WelcomePage = () => {
   const navigate = useNavigate();
@@ -11,7 +12,7 @@ const WelcomePage = () => {
        
         <div className="w-40 h-40 p-5 bg-primary/20 rounded-full mx-auto animate-bounce flex items-center justify-center">
           <img 
-            src="\src\assets\SmartNutritionLogoSansTxt.png" 
+            src={smartLogo} 
             alt="Logo" 
             className="w-full h-full object-contain" 
           />
@@ -46,7 +47,7 @@ const WelcomePage = () => {
 
 const FeatureCard = ({ title, description }) => (
   <div className="bg-dark-100 p-6 rounded-xl border border-dark-200 hover:border-primary transition-colors">
-    <h3 className="text-lg font-semibold text-primary mb-2">{title}</h3>
+    <h3 className="text-lg font-semibold text-white mb-2">{title}</h3>
     <p className="text-sm text-gray-400">{description}</p>
   </div>
 );

@@ -1,4 +1,4 @@
-import { Home, History, Settings } from 'lucide-react';
+import { Home, History, Settings ,Calculator} from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
@@ -9,14 +9,11 @@ const Sidebar = () => {
         <div className="flex items-center gap-2">
           
         </div>
-        
-        
-        
       </div>
       
       <nav className="space-y-2 flex-grow">
         <NavItem to="/" icon={<Home size={20} />} label="Accueil" />
-        <NavItem to="/predict" icon={<History size={20} />} label="Prédiction" end />
+        <NavItem to="/predict" icon={<Calculator size={20} />} label="Prédiction" end />
         <NavItem to="/history" icon={<History size={20} />} label="Historique" />
       </nav>
 

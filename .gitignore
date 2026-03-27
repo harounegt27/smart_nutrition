@@ -30,3 +30,6 @@ data/temp/
 .DS_Store
 Thumbs.db
 
+# Frontend 
+node_modules/
+

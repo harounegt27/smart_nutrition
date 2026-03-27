@@ -41,11 +41,11 @@ const ResultDisplay = () => {
 
         {/* BMI */}
         <div className="bg-dark-100 p-6 rounded-2xl border border-dark-200 shadow-lg flex flex-col justify-center items-center">
-           <div className={`text-6xl font-bold mb-2 ${results.bmi_category === 'Normal' ? 'text-primary' : 'text-yellow-400'}`}>
+           <div className={`text-6xl font-bold mb-2 ${results.bmi_category === 'Normal' ? 'text-white' : 'text-yellow-400'}`}>
              {results.bmi}
            </div>
            <div className="text-gray-400 text-sm mb-4">Indice de Masse Corporelle</div>
-           <div className={`px-4 py-1 rounded-full text-sm font-semibold ${results.bmi_category === 'Normal' ? 'bg-primary/20 text-primary' : 'bg-yellow-400/20 text-yellow-400'}`}>
+           <div className={`px-4 py-1 rounded-full text-sm font-semibold ${results.bmi_category === 'Normal' ? 'bg-primary/20 text-white' : 'bg-yellow-400/20 text-yellow-400'}`}>
              {results.bmi_category}
            </div>
         </div>
